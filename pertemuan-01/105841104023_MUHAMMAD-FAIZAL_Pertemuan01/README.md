@@ -21,7 +21,38 @@
 ### YAML
 **YAML** (kependekan rekursif dari *YAML Ain't Markup Language*) adalah standar format serialisasi data (seperti JSON atau XML) yang sangat mudah dibaca oleh manusia. Format pembacaannya berbasis indentasi spasi dan elemen yang lebih sedikit. Di dunia DevOps yang modern, file `.yml` atau `.yaml` secara luas digunakan sebagai format penulisan file konfigurasi standar, seperti pada konfigurasi Docker Compose, Kubernetes, GitLab CI/CD, hingga GitHub Actions pipelines.
 
-## 3. Screenshot Environment yang Sudah Di-setup
+## 3. Panduan Instalasi dan Konfigurasi Dasar
+
+### Cara Install Ekstensi VSCode via Terminal
+Untuk menginstal ekstensi Visual Studio Code (seperti GitLens atau ekstensi YAML) menggunakan antarmuka baris perintah (Terminal/Command Prompt), Anda dapat menggunakan utilitas CLI bawwaan `code`. Gunakan format perintah berikut: `code --install-extension <publisher.extension-name>`.
+Contoh:
+- Install ekstensi GitLens: `code --install-extension eamodio.gitlens`
+- Install ekstensi YAML dari RedHat: `code --install-extension redhat.vscode-yaml`
+
+### Cara Membuat Akun GitHub
+1. Buka browser dan arahkan ke situs resmi GitHub di [https://github.com](https://github.com).
+2. Klik tombol **"Sign up"** di pojok kanan atas.
+3. Masukkan alamat email aktif Anda dan klik **"Continue"**.
+4. Buat kata sandi (password) yang kuat dan tentukan *username* yang unik.
+5. Selesaikan verifikasi interaktif (*captcha*) persetujuan bot jika diminta, lalu klik **"Create account"**.
+6. GitHub akan mengirimkan kode verifikasi ke email yang didaftarkan. Masukkan kode tersebut pada halaman GitHub untuk memverifikasi dan mengaktifkan akun.
+
+### Cara Konfigurasi Akun Git
+Setelah Anda menginstal Git di komputer lokal, Anda perlu mengatur identitas *user* agar setiap perubahan (commit) yang Anda buat tercatat dengan nama dan email Anda dengan valid. Buka Terminal, Command Prompt, atau Git Bash dan jalankan perintah berikut secara berurutan:
+1. Atur nama pengguna (Ganti `"Nama Anda"` dengan nama panggilan atau nama lengkap Anda):
+   ```bash
+   git config --global user.name "Nama Anda"
+   ```
+2. Atur alamat email (Ganti `"email@anda.com"` dengan email yang Anda gunakan saat mendaftar GitHub):
+   ```bash
+   git config --global user.email "email@anda.com"
+   ```
+3. *(Opsional)* Untuk memverifikasi apakah identitas telah terkonfigurasi dengan benar, ketik perintah berikut:
+   ```bash
+   git config --list
+   ```
+
+## 4. Screenshot Environment yang Sudah Di-setup
 
 Berikut adalah bukti dokumentasi screenshot environment dari tools yang telah dikonfigurasi:
 

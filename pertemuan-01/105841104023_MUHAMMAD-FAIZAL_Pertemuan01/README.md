@@ -36,35 +36,22 @@ Contoh:
 4. Buat kata sandi (password) yang kuat dan tentukan *username* yang unik.
 5. Selesaikan verifikasi interaktif (*captcha*) persetujuan bot jika diminta, lalu klik **"Create account"**.
 6. GitHub akan mengirimkan kode verifikasi ke email yang didaftarkan. Masukkan kode tersebut pada halaman GitHub untuk memverifikasi dan mengaktifkan akun.
-
-### Cara Konfigurasi Akun Git
-Setelah Anda menginstal Git di komputer lokal, Anda perlu mengatur identitas *user* agar setiap perubahan (commit) yang Anda buat tercatat dengan nama dan email Anda dengan valid. Buka Terminal, Command Prompt, atau Git Bash dan jalankan perintah berikut secara berurutan:
-1. Atur nama pengguna (Ganti `"Nama Anda"` dengan nama panggilan atau nama lengkap Anda):
-   ```bash
-   git config --global user.name "Nama Anda"
-   ```
-2. Atur alamat email (Ganti `"email@anda.com"` dengan email yang Anda gunakan saat mendaftar GitHub):
-   ```bash
-   git config --global user.email "email@anda.com"
-   ```
-3. *(Opsional)* Untuk memverifikasi apakah identitas telah terkonfigurasi dengan benar, ketik perintah berikut:
-   ```bash
-   git config --list
-   ```
-
 ## 4. Screenshot Environment yang Sudah Di-setup
 
 Berikut adalah bukti dokumentasi screenshot environment dari tools yang telah dikonfigurasi:
 
 ### Git Version
-![Git Version](screenshots/git-version.png)
+![Git Version](screenshots/01-git-version.png)
 
 ### Docker Version
-![Docker Version](screenshots/docker-version.png)
+![Docker Version](screenshots/03-docker-version.png)
+
+### Docker Hello World
+![Docker Hello World](screenshots/04-docker-hello-world.png)
 
 ### Docker Setup
 ![Docker Setup](screenshots/docker-setup.png)
 
-### VSCode Extensions (GitLens & YAML)
-![GitLens Setup](screenshots/gitlens-setup.png)
-![YAML Setup](screenshots/yaml-setup.png)
+### VSCode Extensions
+![VSCode Extensions 1](screenshots/05-vscode-extensions.png)
+![VSCode Extensions 2](screenshots/06-vscode-extensions-2.png)

@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Content from Branch A
+=======
+Content from Branch B
+>>>>>>> branch-b

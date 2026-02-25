@@ -1,0 +1,8 @@
+Harap masukkan semua gambar screenshot sesuai nama tugas yang diminta laporan praktikum di dalam folder "screenshots" ini:
+1. 01-github-flow-pr.png (Tampilan Pull Request di GitHub)
+2. 02-github-flow-graph.png (Output git log --oneline --graph)
+3. 03-gitflow-branches.png (Output git log --oneline --graph --all / visualisasi git branch)
+4. 04-gitflow-tags.png (Output git tag)
+5. 05-conflict-status.png (Output git status saat konflik)
+6. 06-conflict-markers.png (Isi file dengan conflict markers)
+7. 07-conflict-resolved.png (Output git log setelah merge berhasil)
